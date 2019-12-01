@@ -1,0 +1,10 @@
+<h3>Top 3 movies</h3>
+<div>
+    <a *ngFor="let item of movies" class="col-1-4"
+    style="text-decoration: none;"
+    routerLink="/detail/{{item.id}}">
+        <div class="movie-box">
+            <h4> {{ item.name }} </h4>
+        </div>
+    </a>
+</div>

@@ -1,0 +1,25 @@
+.parent {
+        display: flex;
+    .movies {
+        background: #3399ff;
+        padding: .5em 1em .5em 1.5em;
+        margin: 1em;
+        max-width: 16em;
+        & .selected {
+            background: mediumseagreen !important;
+            color: white;
+        }
+        & .moviesListItem {
+            font-size: 0.875em;
+            font-family: Georgia, serif;
+            padding: .3em;
+            margin: .2em;
+            text-align: left;
+            background: #c0c0c0;
+        } 
+    }
+    
+    
+}
+
+
